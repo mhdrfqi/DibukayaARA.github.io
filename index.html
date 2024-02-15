@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minta Maaf</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+  text-align: center;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1 class="title">Maafin Aku Ya Ara 😃</h1>
+  <div class="message">
+    Maafkan aku, <span id="nama_cewe"></span>. <span id="pesan"></span>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var nama = "Ara"; // Ganti dengan nama kekasih Anda
+  var pesan = "Aku ingin menyampaikan permintaan maaf yang tulus kepada kamu. Aku menyadari bahwa saya telah membuat kesalahan dan menyakiti perasaanmu. Sungguh, aku memang bodoh dan ingin memperbaiki segalanya. jadi jangan ngambek lagi ya Ara aku bener - bener pengen liat ara ketawa lagi 😼😼😼,[Rifqi]"; // Ganti dengan pesan maaf Anda
+  
+  document.getElementById("nama_cewe").innerText = nama;
+  document.getElementById("pesan").innerText = pesan;
+});
+</script>
+</body>
+</html>
